@@ -19,10 +19,13 @@
     background-size: cover;
     background-position: 50% 40%;
     background-attachment: fixed;
+    /* border: 2px hotpink solid; */
+    height: 100vh;
   }
   
   .text-container {
-    height: 100vh;
+    /* border: 2px hotpink solid; */
+    height: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
