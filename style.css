@@ -155,6 +155,7 @@
       background-size: 180%;
       background-attachment:fixed;
       background-position: center;
+      height: 95vh;
     }
 
     nav li {
