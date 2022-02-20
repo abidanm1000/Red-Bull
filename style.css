@@ -11,21 +11,32 @@
     color: white;
     font-size: 2rem;
     text-align: center;
-    /* display: flex;
-    flex-flow: column nowrap; */
   }
   
   header {
+    position: relative;
+  }
+
+  header:before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    filter: brightness(0.6);
     background-image: url("marcel-strauss-kOzjvV0Wy8E-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 40%;
     background-attachment: fixed;
+  }
+
+  .header-text {
+    backdrop-filter: blur(2px);
+    position: relative;
     height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    /* border: white 1px solid; */
   }
 
   header h1 {
@@ -162,6 +173,7 @@
 
     nav li {
       padding: 0 20px 0 20px;
+      font-size: 18px;
     }
 
     .products, .team  {
