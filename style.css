@@ -156,6 +156,10 @@
       font-size: 1.5rem;
     }
 
+    header {
+      background-position: center;
+    }
+
     nav li {
       padding: 0 20px 0 20px;
     }
