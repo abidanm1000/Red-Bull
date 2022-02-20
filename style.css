@@ -153,6 +153,8 @@
 
     header {
       background-size: 180%;
+      background-attachment:fixed;
+      background-position: center;
     }
 
     nav li {
